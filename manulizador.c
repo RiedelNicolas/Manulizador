@@ -17,7 +17,7 @@ int main(int argc,char *argv[]){
 		return -1;
 	}
 
-	char aux [5];
+	char aux [6];
 	strcpy(aux,".temp");
 	FILE* salida  = fopen(aux,"w");
 
